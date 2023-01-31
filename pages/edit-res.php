@@ -32,7 +32,7 @@ include('../config/DbFunction.php');
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>edit students</title>
+<title>Edit Registration</title>
 <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"
 	rel="stylesheet">
 <link href="../bower_components/metisMenu/dist/metisMenu.min.css"
@@ -156,9 +156,9 @@ include('../config/DbFunction.php');
 			<div class="col-lg-4">
 			<select class="form-control" name="status"  id="status"required="required" >
         <option value="<?php echo htmlentities($res->status);?>"><?php echo htmlentities($res->status);?></option>
-		<option VALUE="approved">Approved</option>
-        <option value="pending">Pending</option>
-        <option value="denied">Denied</option>
+		<option VALUE="Approved">Approved</option>
+        <option value="Pending">Pending</option>
+        <option value="Denied">Denied</option>
 		</select>
 			</div>
 
