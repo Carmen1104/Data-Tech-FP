@@ -126,17 +126,17 @@ include('../config/DbFunction.php');
 			
 			</div>
 			<div class="col-lg-4">
-			<input class="form-control" name="lname">
+			<input class="form-control" name="lname" required="required">
 			</div>
 			</div>	
 			<br><br>
 								
 		<div class="form-group">
 			 <div class="col-lg-2">
-			<label>Gender</label>
+			<label>Gender<span id="" style="font-size:11px;color:red">*</span></label>
 			
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-8" required="required">
 		 <input type="radio" name="gender" id="male" value="Male"> &nbsp; Male &nbsp;
 		 <input type="radio" name="gender" id="female" value="Female"> &nbsp; Female &nbsp;
 		 <input type="radio" name="gender" id="other" value="Other"> &nbsp; Other &nbsp;
@@ -210,7 +210,7 @@ include('../config/DbFunction.php');
 			
 			</div>
 			<div class="col-lg-4">
-			<input class="form-control"  type="email" name="email">
+			<input class="form-control"  type="email" name="email" required="required">
 			</div>
 			</div>	
 			<br>
@@ -221,7 +221,7 @@ include('../config/DbFunction.php');
 			
 			</div>
 			<div class="col-lg-4">
-			<textarea class="form-control" rows="3" name="address" id="address"></textarea>
+			<textarea class="form-control" rows="3" name="address" id="address" required="required"></textarea>
 			</div>
 			</div>	
 			<br><br><br><br>

@@ -101,20 +101,20 @@ if (! (isset ( $_SESSION ['login'] ))) {
 								
 		<div class="form-group">
 		<div class="col-lg-4">
-		<label>Subject Name</label>
+		<label>Subject Name<span id="" style="font-size:11px;color:red">*</span></label>
 		</div>
 		<div class="col-lg-6">
-		<input class="form-control"  name="subname">
+		<input class="form-control"  name="subname" required="required">
 	</div>
 	 </div>	
 	<br><br>	
 
      <div class="form-group">
 		<div class="col-lg-4">
-		<label>Lecturer</label>
+		<label>Lecturer<span id="" style="font-size:11px;color:red">*</span></label>
 		</div>
 		<div class="col-lg-6">
-		<input class="form-control"  name="lecturer">
+		<input class="form-control"  name="lecturer" required="required">
 	 </div>
 	 </div>	
 	<br><br>									
